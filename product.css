@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.header{
+    width: 1440px;
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: sticky;
+}
+.logo{
+    color: #FFBFBF;
+    font-family: Dokdo;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.logo h4{
+    padding-left: 45px;
+}
+
+nav{
+    color: #000000;
+    width: 291px;
+    height: 29px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    flex-shrink: 0;
+    font-family: "Montserrat Alternates";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+}
+.icons{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 45px;
+}
+
+.container{
+    padding-top: 40px;
+}
+
+.title{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.catalog{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: space-around;
+    width: 930px;
+    height: 979px;
+    margin: 40px auto;
+    flex-shrink: 0;
+}
+
+.product{
+    width: 258.068px;
+    height: 283.507px;
+}
+
+.product img{
+    width: 258px;
+    height: 231px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.text{
+    margin: auto;
+}
+
+.product-name{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.price{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 9px;
+    text-align: center;
+}
+
+.footer{
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    background-color: #FFBFBF;
+    margin-top: 50px;
+}
+.about{
+    width: 1115px;
+    height: 165px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: auto;
+}
+.about h4{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 26px;
+}
+
+.about p{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.info{
+    width: 431px;
+    height: 29px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.info a{
+    color: #000;
+    text-align: center;
+    font-family: Amaranth;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

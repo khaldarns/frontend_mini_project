@@ -66,7 +66,7 @@ nav a{
     width: 403px;
     height: 102px;
     color: #FFF;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     font-family: Amaranth;
     font-size: 24px;
     font-style: normal;
@@ -76,7 +76,25 @@ nav a{
     padding-bottom: 82px;
     padding-left: 820px;
     padding-right: 20px;
+    background-clip: text;
+    color: transparent;
+    background-image:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(37,54,56,1) 36%, rgb(228, 192, 210) 42%, rgba(251,250,248,1) 49%, rgb(241, 194, 220) 58%, rgba(68,53,68,1) 61%, rgba(0,0,0,1) 100%);
+    background-size: 260% ;
+    background-repeat: no-repeat;
+    animation-name: shining;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
+
+@keyframes shining{
+    0%{ background-position: 100% 0%;}
+    100%{background-position: 0% 0%;}
+}
+
+
+
 .new-product{
     display: flex;
     flex-direction: column;
@@ -196,4 +214,65 @@ nav a{
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
+}
+
+.footer{
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    background-color: #FFBFBF;
+    margin-top: 50px;
+}
+.about{
+    width: 1115px;
+    height: 165px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: auto;
+}
+.about h4{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 26px;
+}
+
+.about p{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.info{
+    width: 431px;
+    height: 29px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.info a{
+    color: #000;
+    text-align: center;
+    font-family: Amaranth;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
